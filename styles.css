@@ -1,0 +1,33 @@
+body{
+    background-image: url("images/stars.gif");
+
+}
+
+
+/* holds the title of the about page*/
+h1{
+    font-family:monospace;
+    color:lavender;
+    border:transparent;
+    margin:auto;
+    padding: 80px;
+
+}
+
+/* holds baby picture of avery*/
+.image-container{
+    margin: 2%;
+    justify-content: center;
+    display: flex; /* moves this ish to center*/
+}
+
+/* holds the about me paragraph*/
+.intro{
+    font-family: monospace;
+    color:rgb(173, 116, 173);
+    border:transparent;
+    margin:5%;
+    display: block; 
+    padding: 30px;
+    background-color: antiquewhite;
+}
