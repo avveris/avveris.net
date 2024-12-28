@@ -17,22 +17,20 @@ body {
 .course-section {
     margin-bottom: 40px;
     padding: 20px;
-    border-left: 4px solid;
+    border-left: 4px solid #ddd;
+    background-color: white;
 }
 
 .ood {
-    background-color: rgb(217, 167, 254);
-    border-color: rgb(187, 137, 224);
+    border-color: #ddd;
 }
 
 .linear-algebra {
-    background-color: rgb(217, 167, 254);
-    border-color: rgb(187, 137, 224);
+    border-color: #ddd;
 }
 
 .fund-ds {
-    background-color: rgb(217, 167, 254);
-    border-color: rgb(187, 137, 224);
+    border-color: #ddd;
 }
 
 h2 {

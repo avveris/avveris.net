@@ -1,0 +1,45 @@
+.mainppage {
+    width: 100%;
+    text-align: center;
+}
+
+h1{
+    font-family:monospace;
+    color:lavender;
+    border:transparent;
+    margin:auto;
+    padding: 80px;
+
+}
+
+.whole-page {
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.main_menu {
+    margin-top: 1.5rem;
+}
+
+body{
+    background-image: url("images/stars.gif");
+}
+.navbar__links {
+    display: inline-block;
+    color: rgb(173, 116, 173);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border: 2px solid antiquewhite;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    background-color: antiquewhite;
+}
+
+.navbar__links:hover {
+    background-color: rgb(173, 116, 173);
+    border-color: rgb(173, 116, 173);
+    color: antiquewhite;
+}
