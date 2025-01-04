@@ -23,21 +23,30 @@ body {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-h1 {
-    font-family: monospace;
-    color: lavender;
-    border: transparent;
-    margin: auto;
-    padding: 80px;
-    position: relative;
-    z-index: 1;
-}
-
 .whole-page {
     padding: 2rem;
     border-radius: 8px;
     max-width: 600px;
     margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.pattern {
+    font-family: monospace;
+    color: rgb(173, 116, 173);
+    position: relative;
+    z-index: 1;
+}
+
+.pattern b {
+    color: lavender;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.image-container {
+    margin-bottom: 30px;
     position: relative;
     z-index: 1;
 }
