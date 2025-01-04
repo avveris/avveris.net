@@ -1,33 +1,57 @@
-body{
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: monospace;
+    position: relative;
+}
+
+/* Background layers */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -2;
+}
+
+body::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background-image: url("images/stars.gif");
-
+    z-index: -3;
 }
 
-
-/* holds the title of the about page*/
-h1{
-    font-family:monospace;
-    color:lavender;
-    border:transparent;
-    margin:auto;
+/* holds the title of the about page */
+h1 {
+    font-family: monospace;
+    color: lavender;
+    border: transparent;
+    margin: auto;
     padding: 80px;
-
 }
 
-/* holds baby picture of avery*/
-.image-container{
+/* holds baby picture of avery */
+.image-container {
     margin: 2%;
     justify-content: center;
-    display: flex; /* moves this ish to center*/
+    display: flex; /* moves this ish to center */
 }
 
-/* holds the about me paragraph*/
-.intro{
+/* holds the about me paragraph */
+.intro {
     font-family: monospace;
-    color:rgb(173, 116, 173);
-    border:transparent;
-    margin:5%;
-    display: block; 
+    color: rgb(173, 116, 173);
+    border: transparent;
+    margin: 5%;
+    display: block;
     padding: 30px;
     background-color: antiquewhite;
 }

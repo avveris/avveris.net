@@ -1,3 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("images/stars.gif");
+    min-height: 100vh;
+}
+
+.mainppage {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* Black overlay */
+.mainppage::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust the opacity (0.7) as needed */
+}
+
 .whole-page {
     display: flex;
     flex-direction: column;
@@ -5,13 +29,39 @@
     justify-content: center;
     height: 100vh;
     width: 100%;
+    position: relative; /* This ensures content stays above the overlay */
+    z-index: 1;        /* This ensures content stays above the overlay */
+}
+
+h1 {
+    font-family: monospace;
+    color: lavender;
+    margin: 0;
+    padding: 40px;
+    font-size: 2.5em;
+}
+
+.main_menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
 
 .navbar__links {
     text-decoration: none;
     color: rgb(110, 8, 8);
+    font-family: monospace;
+    font-size: 1.5em;
+    padding: 10px;
+    transition: color 0.3s ease;
 }
 
-.navbar__links {
-    color: rgb(110, 8, 8);
+.navbar__links:hover {
+    color: lavender;
+}
+
+/* Remove the br element and use CSS gap instead */
+br {
+    display: none;
 }
